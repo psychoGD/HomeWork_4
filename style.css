@@ -541,3 +541,37 @@ margin-bottom: 250px;
 }
 
 /* section 6  end */
+
+footer{
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.row-container{
+    width: 61%;
+    padding-top: 95px;
+    padding-bottom: 65px;
+    display: flex;
+}
+
+.row-1{
+    width: 31%;
+    display: inline-flex;
+    justify-content: left;
+}
+
+.row-1 > :nth-child(1){
+    padding-bottom: 29px;
+
+}
+
+.row-1 > :nth-child(2){
+    padding-bottom: 59px;
+    font-size: 0.75em;
+    font-family: 'Raleway',sans-serif;
+    color: white;
+}
+
+/* 59px */
+
+/* 31% */
