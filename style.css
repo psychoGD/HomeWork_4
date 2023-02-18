@@ -552,12 +552,13 @@ footer{
     padding-top: 95px;
     padding-bottom: 65px;
     display: flex;
+    margin: auto;
 }
 
 .row-1{
     width: 31%;
-    display: inline-flex;
-    justify-content: left;
+    display: block;
+    text-align: left;
 }
 
 .row-1 > :nth-child(1){
@@ -565,13 +566,39 @@ footer{
 
 }
 
-.row-1 > :nth-child(2){
-    padding-bottom: 59px;
-    font-size: 0.75em;
+.row-caption{
     font-family: 'Raleway',sans-serif;
     color: white;
+    font-size: 0.75em;
 }
 
+.row-1 > :nth-child(2){
+    padding-bottom: 59px;  
+}
+
+
 /* 59px */
+.row-1 > :nth-child(3){
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.row-little{
+
+    text-align: left;
+
+}
+
+.row-little :first-child(1){
+    
+    font-size: 1em !important;
+}
+
+.row-little > a{
+    text-decoration: none;
+    display: flex;
+    padding-bottom: 26px;
+    background-color: red ;
+}
 
 /* 31% */
