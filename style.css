@@ -553,12 +553,20 @@ footer{
     padding-bottom: 65px;
     display: flex;
     margin: auto;
+    justify-content: center;
 }
 
-.row-1{
+.row-container > *{
+    margin: 20px;
+}
+
+.row{
     width: 31%;
     display: block;
     text-align: left;
+}
+
+.row-1{
 }
 
 .row-1 > :nth-child(1){
@@ -598,7 +606,39 @@ footer{
     text-decoration: none;
     display: flex;
     padding-bottom: 26px;
-    background-color: red ;
+}
+
+.row-2 :nth-child(1){
+    padding-bottom: 25px;
+}
+
+
+.row-2 > :nth-child(2){
+    padding-bottom: 46px;
+}
+
+.row-2 > a{
+    padding-bottom: 36px !important;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+    background-color: #ffe500;
+    color: black;
+    border-radius: 20px;
+    width: 210px;
+    text-align: center;
+}
+
+.footerimgs{
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footerimgs > img{
+    padding-right: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 /* 31% */
